@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CV</title>
+  <!-- Internal CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstarp CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Yatra+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="about">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <div class="toggle" data-toggle="collapse" data-target="#navBarToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="collapse navbar-collapse menu-items" id="navBarToggle">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- About section -->
+      <div class="about" id="about">
+        <h1 class=" text-left about-heading">Hello <br /> I'm Evelina<br /> <span class="about-small">a junior programmer!</span></h1>
+        <p>I am a motivated, responsible, and hardworking. I am currently in my third year of studying Software Engineering at Vilniaus kolegija /University of Applied Sciences. I have Front-end programming skills, enabling me to effectively program
+          the new websites. I would like to apply and improve my IT skills in real projects.
+        </p>
+      </div>
+      <!-- Dots section -->
+      <div id="objects">
+        <div id="object1">
+          <img class="dot" src="images/1.png" alt="Dot">
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills">
+    <div class="container-fluid">
+      <img class="dot2" src="images/2.png" alt="Dot">
+      <h3 class="big-heading left-heading text-left">Programming</h3>
+      <div class="row row-padding">
+        <div class="col-lg-3 col-md-6 ">
+          <img class="skills" src="images/html.png" alt="html">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="skills" src="images/css.png" alt="css">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="skills" src="images/bootstrap.png" alt="css">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img class="skills" src="images/javascript.png" alt="css">
+        </div>
+      </div>
+
+      <h3 class="big-heading big-heading-margin text-lg-left">Project <br> management <br> </h3>
+      <hr class="line">
+      <div class="col-lg-6 col-md-12">
+        <div class="row row-skills">
+          <div class="col-lg-4 col-sm-4 ">
+            <p>Trello</p>
+          </div>
+          <div class="col-lg-4 col-sm-4 ">
+            <p>Agile</p>
+          </div>
+          <div class="col-lg-4 col-sm-4 ">
+            <p>Waterfall</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects section -->
+  <section id="projects">
+    <div class="container-fluid">
+      <h3 class="big-heading text-left">Projects</h3>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Projects1.png" class="d-block w-100 nuot1" alt="...">
+            <p>It's a game a guess the number. It's a random generate number from 1 to 100. The player guesses the number if the guess is incorrect, he has a hint which says the number is less or bigger. If the number guesses, the player can continue
+              the game or start a new game. Throughout the game, the number of guesses is recorded and the numbers are guessed.</p>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/web1.jpeg" class="d-block w-100" alt="...">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev carousel-control-left" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon carousel-control" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next carousel-control-right" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact section  -->
+  <section id="contact">
+
+      <h3 class="contact">Say, Hello!</h3>
+      <div class="row row-contact">
+        <div class="col-lg-12 text-center">
+          <a href="mailto:evelina.semezyte@gmail.com">evelina.semezyte@gmail.com</a>
+        </div>
+        <div class="col-lg-12 text-center">
+          <p>+37064326162</p>
+        </div>
+
+      </div>
+<img class="dot3" src="images/3.png" alt="Dot">
+  </section>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- JavaSript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js" type="text/javascript">
+  </script>
+
+</body>
+
+</html>
