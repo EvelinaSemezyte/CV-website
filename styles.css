@@ -157,12 +157,15 @@ p{
   width: 100%;
   padding: 7% 10% 1%;
 }
-
+a{
+  text-decoration: none;
+}
 .cta-text {
   font-size: 1rem;
   padding-bottom: 4%;
   padding-left: 10%;
   padding-right: 10%;
+
 }
 
 .cta {
@@ -179,7 +182,7 @@ p{
 }
 
 .cta-card {
-  padding: 2% 10% 7%;
+  padding: 2% 10% 10%;
   vertical-align: middle
 }
 
