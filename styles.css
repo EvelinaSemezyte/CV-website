@@ -256,6 +256,12 @@ a:hover {
     margin-right: 5%;
   }
 }
+@media (max-width: 450px) {
+  #about {
+    padding: 0;
+  }
+}
+
 
 /* navigation Bar */
 .toggle {
