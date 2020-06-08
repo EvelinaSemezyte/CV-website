@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #342b38!important;
+  background: #342b38 !important;
 }
 
 /* Headings */
@@ -30,7 +30,7 @@ body {
   position: relative;
   color: #bbf1c8;
   font-family: 'Yatra One', cursive;
-  font-size: 7rem !important;
+  font-size: 7rem;
 }
 
 .about-small {
@@ -258,22 +258,56 @@ a:hover {
     margin-left: 10%;
     margin-right: 5%;
   }
+
   #about {
-    padding: 5% 4% 0;
+    padding: 6% 4% 0;
   }
+
   #skills {
     padding: 3% 3% 2%;
   }
+
   #projects {
     padding: 3% 3% 5%;
   }
+
   #contact {
     padding: 2% 3% 2%;
   }
 
+  .cta {
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 4%;
+  }
+  .big-heading {
+    font-size: 5rem;
+    ;
+  }
+  #about p {
+    font-size: 1.7rem;
+    padding: 0 7% 5%;
+  }
+  .about-heading {
+    font-size: 8.2rem;
+  }
+  .about-small {
+    font-size: 4rem;
+  }
+  #skills p {
+    font-size: 2rem;
+  }
+  .cta-text {
+    font-size: 1.7rem;
+    padding: 4% 10% 2%;
+  }
+  #contact p {
+    font-size: 1.7rem;
+  }
+  .menu ul li a {
+    font-size: 7rem;
+  }
 }
-
-
 
 /* navigation Bar */
 .toggle {
@@ -350,16 +384,14 @@ a:hover {
   display: block;
 }
 
-.menu ul li a::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  transition: transform 0.5s;
+.nav-link{
+  font-size: 3rem;
 }
 
 .menu-items {
   transition-delay: .6s;
 }
+
 .nav-link {
   color: #bbf1c8;
   ;
